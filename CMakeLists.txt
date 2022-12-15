@@ -10,6 +10,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -pedantic -Wextra -Werror=return-type")
 
+include(GNUInstallDirs)
+
 include(libfixmath/libfixmath.cmake)
 include(tests/tests.cmake)
 
